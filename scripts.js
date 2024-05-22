@@ -29,7 +29,7 @@ function verifyNews(isFake) {
         // 播放声音
         playSound();
         newsContainer.innerHTML = `<img src="cosimo.jpeg" alt="Fake News"><p class="fake-news-text">Haha, fake news!</p>`;
-        setTimeout(loadNextNews, 4300); // Wait for 3 seconds before loading the next news
+        setTimeout(loadNextNews, 5300); // Wait for 3 seconds before loading the next news
     } else {
         alert('Wrong, this news is true!');
         loadNextNews(); // Load the next news item
